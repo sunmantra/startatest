@@ -1,7 +1,40 @@
 <template>
    <div class="wrapper">
         <div class="imgfon">
-            <img src="../img/slidehader.png" alt="">
+            <div class="container">
+                <div class="header">
+                    <div class="header__title">
+                        <div class="header__LR">
+                            <p>Москва</p>  
+                            <p>Обратный звонок</p>
+                        </div>
+                        <div class="header__LR">
+                            <p>Пн-Вс 10-19</p>  
+                            <p>8(495) 229 85 59</p> 
+                        </div>
+                    </div>
+                    <div class="header__logo">
+                        <p><img src="../img/icon/menu.svg" alt=""> меню</p>
+                        <div><img src="../img/icon/logo2.png" alt=""></div>
+                        <div><img src="../img/icon/l1.svg" alt=""> <img src="../img/icon/l2.svg" alt=""><img src="../img/icon/l3.svg" alt=""></div>
+                    </div>
+                    <div class="header__group">
+                        <p>Мойки</p>
+                        <p>Смесители</p>
+                        <p>Аксессуары</p>
+                        <p>Плиты</p>
+                        <p>Умывальники</p>
+                        <p>Manhattan</p>
+                        <p>Другая продукция</p>
+                    </div>
+                </div>
+                <div class="slider">
+                    <h3>Мойки, смесители и аксессуары</h3>
+                    <p style="max-width: 640px;">от ведущего производителя сантехники для кухни Reginox</p>
+                </div>
+                <div class="button"></div>
+            
+        </div>  
         </div>
         <div class="crownchoice">
             <div class="container">
@@ -52,15 +85,15 @@
             <div class="container">
                 <h2 style="margin-top: 132px;">КАТАЛОГ</h2>
                 <div style="height: 1420px;" class="catalog__group">
-                    <div class="catalog__elem" ><img src="../img/group/1.png" alt=""> </div>
-                    <div class="catalog__elem"><img src="../img/group/2.png" alt=""></div>
-                    <div class="catalog__elem"><img src="../img/group/3.png" alt=""></div>
-                    <div class="catalog__elem"><img src="../img/group/4.png" alt=""></div>
-                    <div class="catalog__elem"><img src="../img/group/5.png" alt=""></div>
-                    <div class="catalog__elem"><img src="../img/group/6.png" alt=""></div>
-                    <div class="catalog__elem"><img src="../img/group/7.png" alt=""></div>
-                    <div class="catalog__elem"><img src="../img/group/8.png" alt=""></div>
-                    <div class="catalog__elem"><img src="../img/group/9.png" alt=""></div>
+                    <div id="q1" class="catalog__elem"></div> 
+                    <div id="q2" class="catalog__elem"></div>
+                    <div id="q3" class="catalog__elem"></div>
+                    <div id="q4" class="catalog__elem"></div>
+                    <div id="q5" class="catalog__elem"></div>
+                    <div id="q6" class="catalog__elem"></div>
+                    <div id="q7" class="catalog__elem"></div>
+                    <div id="q8" class="catalog__elem"></div>
+                    <div id="q9" class="catalog__elem"></div>
                 </div>
                 <h2 style="margin-top: 130px;">ПОПУЛЯРНЫЕ ТОВАРЫ</h2>
                 <div style="height: 1000px;" class="catalog__group">
@@ -268,13 +301,87 @@ p{
 }
 .imgfon{
 height: 811px;
+background: linear-gradient(0deg, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.25) 100%), url(../img/slidehader.png), lightgray 0px -741.293px / 100% 200.104% no-repeat;
+width: 1921px;
+flex-shrink: 0;
+display: flex;
+flex-direction: column;
+align-items: center;
 }
-.imgfon img{
-    max-width: 1921px;
-    flex-shrink: 0;
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header p{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.header__title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.header__group p{
+    font-size: 20px;
+    line-height: 140%; /* 28px */
+}
+.header__LR{
+    display: flex;
+    width: 300px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.header__group{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.slider{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 750px;
+}
+.slider h3{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-top:80px ;
+    margin-bottom: 40px;
+}
+.slider p{
+    color: #FFF;
+    letter-spacing: 0.84px;
+    font-family: Montserrat;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 .crownchoice{
-    width: 1921px;
+    width: 100%;
     flex-shrink: 0;
     height: 330px;
     background: var(--gray-light, #ECECEC);
@@ -291,7 +398,7 @@ height: 811px;
 }
 
 .catalog{
-    background: #FFF;
+    
     width: 100%;
 }
 
@@ -307,10 +414,19 @@ height: 811px;
     width: 383px;
     height: 440px;
     flex-shrink: 0;
-    background:#ECECEC;
+    background: var(--gray-light, #ECECEC);
+}
+/*костыль - но куда без них, можно было сделать через js*/ 
+#q1{ background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #000 100%), url(../img/group/1.png);}
+#q2{ background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #000 100%), url(../img/group/2.png);}
+#q3{ background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #000 100%), url(../img/group/3.png);}
+#q4{ background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #000 100%), url(../img/group/4.png);}
+#q5{ background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #000 100%), url(../img/group/5.png);}
+#q6{ background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #000 100%), url(../img/group/6.png);}
+#q7{ background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #000 100%), url(../img/group/7.png);}
+#q8{ background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #000 100%), url(../img/group/8.png);}
+#q9{ background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #000 100%), url(../img/group/9.png);}
 
-    /*background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #000 100%);
-*/}
 .catalog__nameel{
     height: 100%;
     display: flex;
@@ -469,5 +585,12 @@ line-height: normal;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+}
+
+
+@media screen and (max-width:575px){
+  .polushon{
+        
+    }
 }
 </style>
