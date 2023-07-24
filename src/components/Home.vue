@@ -3,38 +3,75 @@
         <div class="imgfon">
             <div class="container">
                 <div class="header">
-                    <div class="header__title">
-                        <div class="header__LR">
-                            <p>Москва</p>  
-                            <p>Обратный звонок</p>
+                    <div class="header__desc">
+                        <div class="header__title">
+                            <div class="header__LR">
+                                <div class="dropdown">
+                                    <button class="dropbtnmenu">Москва <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <path d="M6.48956 9.63672L12.0003 14.3601L17.5107 9.63672" stroke="white" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+                                    <div class="dropdownmenu-content">
+                                        <a href="#">Город N</a>
+                                        <a href="#">Город N</a>
+                                        <a href="#">Город N</a>
+                                        <a href="#">Город N</a>
+                                    </div>
+                                </div>
+                                <p>Обратный звонок</p>
+                            </div>
+                            <div class="header__LR">
+                                <p>Пн-Вс 10-19</p>  
+                                <p>8(495) 229 85 59</p> 
+                            </div>
                         </div>
-                        <div class="header__LR">
+                        <div class="header__logo">
+                            <p><img src="../img/icon/menu.svg" alt="" style="margin-right: 12px;"> меню</p>
+                            <div><img src="../img/icon/logo2.png" alt=""></div>
+                            <div><img src="../img/icon/l1.svg" alt="" style="margin-right: 24px;"> <img src="../img/icon/l2.svg" alt="" style="margin-right: 24px;"><img src="../img/icon/l3.svg" alt=""></div>
+                        </div>
+                        <div class="header__group">
+                            <p>Мойки</p>
+                            <p>Смесители</p>
+                            <p>Аксессуары</p>
+                            <p>Плиты</p>
+                            <p>Умывальники</p>
+                            <p>Manhattan</p>
+                            <div  class="dropdown">
+                                <button style=" font-size: 20px; line-height: 140%; " class="dropbtnmenu">Другая продукция<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                <path d="M6.48956 9.63672L12.0003 14.3601L17.5107 9.63672" stroke="white" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+                                <div class="dropdownmenu-content">
+                                    <a href="#">Продукция</a>
+                                    <a href="#">Продукция</a>
+                                    <a href="#">Продукция</a>
+                                    <a href="#">Продукция</a>
+                                </div>
+                            </div>
+                      </div>
+                    </div>
+                    <div class="header__phon">
+                        <div class="header__title">
                             <p>Пн-Вс 10-19</p>  
-                            <p>8(495) 229 85 59</p> 
+                            <p>Обратный звонок</p> 
                         </div>
-                    </div>
-                    <div class="header__logo">
-                        <p><img src="../img/icon/menu.svg" alt=""> меню</p>
-                        <div><img src="../img/icon/logo2.png" alt=""></div>
-                        <div><img src="../img/icon/l1.svg" alt=""> <img src="../img/icon/l2.svg" alt=""><img src="../img/icon/l3.svg" alt=""></div>
-                    </div>
-                    <div class="header__group">
-                        <p>Мойки</p>
-                        <p>Смесители</p>
-                        <p>Аксессуары</p>
-                        <p>Плиты</p>
-                        <p>Умывальники</p>
-                        <p>Manhattan</p>
-                        <p>Другая продукция</p>
+                        <img style="margin-top: 24px;" src="../img/icon/logo2.png" alt="">
+                        <div style="margin-top: 24px;" class="header__title">
+                            <img src="../img/icon/menu.svg" alt="" style="margin-right: 12px;">
+                            <p>8(495) 229 85 59</p> 
+                            <div>
+                                <img src="../img/icon/l1.svg" alt="" style="margin-right: 24px;"> 
+                                <img src="../img/icon/l2.svg" alt="" style="margin-right: 24px;">
+                                <img src="../img/icon/l3.svg" alt="">
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="slider">
                     <h3>Мойки, смесители и аксессуары</h3>
                     <p style="max-width: 640px;">от ведущего производителя сантехники для кухни Reginox</p>
                 </div>
-                <div class="button"></div>
-            
-        </div>  
+                <div style="width: 100%; display: flex;justify-content: flex-end;">
+                    <div class="button"> <p style="margin-left:62px">Стальные мойки Reg-color</p><img src="../img/icon/photo.png" alt=""></div> 
+                </div> 
+            </div>  
         </div>
         <div class="crownchoice">
             <div class="container">
@@ -83,20 +120,20 @@
         </div>
         <div class="catalog">
             <div class="container">
-                <h2 style="margin-top: 132px;">КАТАЛОГ</h2>
-                <div style="height: 1420px;" class="catalog__group">
-                    <div id="q1" class="catalog__elem"></div> 
-                    <div id="q2" class="catalog__elem"></div>
-                    <div id="q3" class="catalog__elem"></div>
-                    <div id="q4" class="catalog__elem"></div>
-                    <div id="q5" class="catalog__elem"></div>
-                    <div id="q6" class="catalog__elem"></div>
-                    <div id="q7" class="catalog__elem"></div>
-                    <div id="q8" class="catalog__elem"></div>
-                    <div id="q9" class="catalog__elem"></div>
+                <h2 id="h21">КАТАЛОГ</h2>
+                <div class= "catalog__group">
+                    <div id="q1" class="catalog__elem"><div class="catalog__txt"><p>Мойки</p></div></div> 
+                    <div id="q2" class="catalog__elem"><div class="catalog__txt"><p>Смесители</p></div></div>
+                    <div id="q3" class="catalog__elem"><div class="catalog__txt"><p>Аксессуары</p></div> </div>
+                    <div id="q4" class="catalog__elem"><div class="catalog__txt"><p>Плиты</p></div></div>
+                    <div id="q5" class="catalog__elem"><div class="catalog__txt"><p>Умывальники</p></div></div>
+                    <div id="q6" class="catalog__elem"><div class="catalog__txt"><p>Столешницы</p></div></div>
+                    <div id="q7" class="catalog__elem"><div class="catalog__txt"><p>Системы хранения Manhattan</p></div> </div>
+                    <div id="q8" class="catalog__elem"><div class="catalog__txt"><p>Измельчители Bone Crusher</p></div></div>
+                    <div id="q9" class="catalog__elem"><div class="catalog__txt"><p>Иная продукция</p></div></div>
                 </div>
-                <h2 style="margin-top: 130px;">ПОПУЛЯРНЫЕ ТОВАРЫ</h2>
-                <div style="height: 1000px;" class="catalog__group">
+                <h2 id="h22">ПОПУЛЯРНЫЕ ТОВАРЫ</h2>
+                <div class="catalog__group">
                     <div class="catalog__elem"><div class="catalog__nameel"><img style="margin-top:25px ;" src="../img/pop/1.svg" alt="">  <div><h3>Amsterdam 25 Dark chocolate</h3><p>9 950 руб</p></div></div> </div>
                     <div class="catalog__elem"><div class="catalog__nameel"><img style="margin-top:25px ;" src="../img/pop/2.png" alt="">  <div><h3>YADKIN K1065K black</h3><p>31 000 руб                  </p></div></div> </div>
                     <div class="catalog__elem"><div class="catalog__nameel"><img style="margin-top:25px ;" src="../img/pop/3.png" alt="">  <div><h3>Diplomat R 20 lux</h3><p>17 000 руб</p></div></div> </div>
@@ -104,7 +141,8 @@
                     <div class="catalog__elem"><div class="catalog__nameel"><img style="margin-top:25px ;" src="../img/pop/5.png" alt="">  <div><h3>Amsterdam 34 Caffe Silvery</h3><p>19 000 руб</p></div></div> </div>
                     <div class="catalog__elem"><div class="catalog__nameel"><img style="margin-top:25px ;" src="../img/pop/6.png" alt="">  <div><h3>R18 370 OSP lux</h3><p>7 300 руб</p></div></div> </div>
                 </div>
-                <h2 style="margin-top: 205px;">О КОМПАНИИ</h2>
+                <h2 id="h23" >О КОМПАНИИ</h2>
+                
                 <div  class="about">
                     <h3 style="font-weight: 600;">Добро пожаловать на сайт Компании Reginox Reef Holding(ООО «РеджиноксРиф   Холдинг») — единственного и официального   представителя производителя сантехнической продукции для кухни и ванной комнаты Reginox (Нидерланды).</h3>
                     <h3 >Основной специализацией нашей компании являются розничные и оптовые продажи кухонной сантехники по всей России. Мы предлагаем кухонные мойки из нержавеющей стали и гранитного композита,  смесители для кухни, а также оригинальную продукцию от Reginox:</h3>
@@ -179,6 +217,10 @@
                     </div>
                     <h3>Благодаря многолетнему и плодотворному тандему RRHolding и Reginox, сегодня мы имеем большое количество бизнес-партнеров, в том числе и за пределами РФ, с которыми поддерживаем и развиваем взаимовыгодные отношения, приобрели популярность среди потребителей, и сохранили за собой статус компании, предлагающей на рынке России продукцию со «стальной репутацией». Мы предлагаем лучшее качество от европейского завода-производителя (завод   расположен   в   Нидерландах,   город   Rijssen) и пожизненную гарантию на продукцию из нержавеющей стали!</h3>
                 </div>
+                <div class="about__phone">
+                    <p>Добро пожаловать на сайт Компании Reginox Reef Holding(ООО «РеджиноксРиф   Холдинг») — единственного и официального   представителя производителя сантехнической продукции для кухни и ванной комнаты Reginox (Нидерланды).</p>
+                    <a href="">Читать полностью</a>
+                </div>
                 <div class="footer">
                     <div class="footer__pillar">
                         <h3>О компании</h3>
@@ -239,10 +281,7 @@
              style=" width: 100%;
              height: 45px;">
             <div class="container">
-                <div style="display: flex;
-                    align-items: center;
-                    justify-content: space-between;
-                    width: 100%;">
+                <div class="polushon__bottom">
                     <a href="">Политика конфеденциальности</a>
                     <p  style="margin: 0;">2020 © Reginox-shop</p>
                 </div>
@@ -282,6 +321,11 @@ h2{
     line-height: normal;
     text-transform: uppercase;
 }
+#h21{margin-top: 132px;}
+#h22{margin-top: 130px;}
+#h23{margin-top: 180px;}
+         
+               
 h3{
     color: var(--grafit, #333);
     font-family: Montserrat;
@@ -321,6 +365,9 @@ align-items: center;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 .header__title{
     display: flex;
@@ -347,6 +394,10 @@ align-items: center;
     justify-content: space-between;
     width: 100%;
 }
+.header__logo p{
+    margin-bottom: 40px;
+    margin-top: 30px;
+}
 .header__group{
     display: flex;
     flex-direction: row;
@@ -368,8 +419,8 @@ align-items: center;
     font-weight: 800;
     line-height: normal;
     text-transform: uppercase;
-    margin-top:80px ;
-    margin-bottom: 40px;
+    margin-top:90px ;
+    margin-bottom: 15px;
 }
 .slider p{
     color: #FFF;
@@ -379,6 +430,27 @@ align-items: center;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+.button{
+    width: 312px;
+    height: 128px;
+    background: #AD2131;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.button p{
+    color: var(--gray-light, #ECECEC);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 140px;
+}
+.button img{
+    position:relative;
+   
 }
 .crownchoice{
     width: 100%;
@@ -398,19 +470,35 @@ align-items: center;
 }
 
 .catalog{
-    
     width: 100%;
 }
-
+.catalog__txt{
+    width: 100%;
+    height:100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+.catalog__txt p{
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.84px;
+}
 .catalog__group{
     margin-top: 32px;
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    
     justify-content: space-between;
 }
 .catalog__elem{
+    margin-bottom:50px ;
     width: 383px;
     height: 440px;
     flex-shrink: 0;
@@ -493,13 +581,35 @@ line-height: normal;
     text-align:left;
     
 }
+.dropbtnmenu{
+    padding: 16px;
+    border: none;
+    text-align:left;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: #ececec00;
+}
 .dropbtn img{
     margin-left: 10px;
 }
-.dropbtn:hover{
+.dropbtnmenu img{
+    margin-left: 10px;
     background: #ffffff;
 }
-
+.dropbtn :hover{
+    background: #ffffff;
+}
+.dropbtnmenu:hover{
+    background: #ffffff;
+    color: var(--gray, #666565);
+}
 .dropdown {
   position: relative;
   display: inline-block;
@@ -511,6 +621,13 @@ line-height: normal;
   background-color: #ffffff;
   min-width: 260px;
   z-index: 1;
+}
+.dropdownmenu-content{
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+   width: 100%;
+    z-index: 1;
 }
 
 .dropdown-content p {
@@ -525,8 +642,21 @@ line-height: normal;
     font-weight: 500;
     line-height: normal;
 }
-.dropdown:hover .dropdown-content {display: block;}
+.dropdownmenu-content a {
+  text-decoration: none;
+  display: block;
+ padding-left: 15px;
+    margin-top:15px;
+    color: var(--gray, #666565);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
 
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropdownmenu-content{display: block;}
 .footer{
     height: 550px;
     display: flex;
@@ -586,11 +716,163 @@ line-height: normal;
     font-weight: 500;
     line-height: normal;
 }
+.polushon__bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
 
+.header__desc{
+    width: 100%;
+}
+@media screen and (width >575px){
+.about__phone{
+display: none;
+}
+
+.header__phon{
+    display: none; 
+}
+}
 
 @media screen and (max-width:575px){
-  .polushon{
-        
-    }
+.container{
+max-width: 330px;
 }
+.imgfon{
+    width: 375px;
+    height: 667px;
+    flex-shrink: 0;
+}
+.slider h3{
+    color: #FFF;
+font-family: Montserrat;
+font-size: 36px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+text-transform: uppercase;
+margin-top: 60px;
+}
+.slider p{
+    color: #FFF;
+font-family: Montserrat;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.54px;
+}
+.button{
+    width: 278px;
+    height: 114px;
+    margin-top: 48px;
+}
+.button img{
+    width: 135px;
+height: 114px;
+flex-shrink: 0;
+}
+.crownchoice{
+    height: 507px;
+}
+.crownchoice__title{
+    color: #FFF;
+text-align: center;
+font-family: Montserrat;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: 150%; /* 48px */
+letter-spacing: 0.64px;
+text-transform: uppercase;
+}
+.crownchoice__element {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+
+}
+.dropbtn{
+    padding-bottom: 20px;
+}
+h2{
+    color: var(--grafit, #333);
+font-family: Montserrat;
+font-size: 42px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+}
+.catalog__elem{
+    width: 330px;
+    height: 384px;
+    margin-bottom: 30px;
+}
+#h21{margin-top: 90px;}
+#h22{margin-top: 90px;}
+#h23{margin-top: 80px;}
+
+.footer {
+    height: 100%;
+    display: flex;
+    max-width: 1000px;
+    justify-content: space-between;
+    margin: 90px 0px 66px 0px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.about {
+    display: none;
+}
+
+.about__phone{
+    display: flex;
+    width: 327px;
+    flex-direction: column;
+    align-items: flex-start;
+   
+}
+.about__phone p{
+    color: var(--grafit, #333);
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%; /* 30px */
+    letter-spacing: 0.4px;
+    margin:40px 0 40px 0;
+}
+.about__phone a{
+    color: var(--grafit, #333);
+font-family: Montserrat;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 30px */
+letter-spacing: 0.4px;
+text-decoration-line: underline;
+}
+.polushon__bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    flex-direction: column;
+}
+.header__desc{
+    display: none;
+}
+.header__phon{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+}
+
 </style>
